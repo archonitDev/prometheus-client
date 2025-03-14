@@ -42,6 +42,7 @@ export default tseslint.config(
       'react/jsx-uses-react': 'off',
       'react/jsx-uses-vars': 'error',
       'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
+      semi: ['error', 'never'],
       'prettier/prettier': [
         'error',
         {
@@ -51,6 +52,7 @@ export default tseslint.config(
           printWidth: 80,
           singleQuote: true,
           trailingComma: 'all',
+          semi: false,
         },
       ],
     },
